@@ -10,14 +10,14 @@
     --title-color: hsl(0,0%,95%);
     --text-color: hsl(0,0%,70%);
     --text-color-light: hsl(0,0%,60%);
-    --body-color: hsl(0,0%,0%);
-    --container-color: hsl(0,0%,8%);
+    --body-color: hsl(253, 80%, 12%);
+    --container-color: hsl(242, 25%, 20%);
 
     /* Fuentes */
 
     --body-font: "Roboto", sans-serif;
     --alternative-font: "Inter", sans-serif;
-    --biggest-font-size: 2.40rem;
+    --biggest-font-size: 2.20rem;
     --h1-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
     --h3-font-size: 1rem;
@@ -92,6 +92,10 @@ img{
     height: auto;
     margin-top: 2.5rem;
 
+}
+
+.ri-heart-fill{
+    color: rgb(180, 38, 38);
 }
 
 /* ESTILOS REUTILIZABLES */
@@ -220,7 +224,7 @@ img{
     left: 0;
     width: 100%;
     height: 800px;
-    background: linear-gradient(180deg, hsla(0, 0%, 0%, 0) 58%, hsl(0, 0%, 0%) 78%);
+    background: linear-gradient(180deg, hsla(0, 0%, 0%, 0) 58%, hsl(253, 80%, 12%) 78%);
 }
 
 .home__container{
@@ -427,9 +431,9 @@ img{
     width: 100%;
     height: 100%;
     background: linear-gradient(180deg,
-    hsl(0, 0%, 0%) 5%, hsla(0, 0%, 0%, 0) 40%,
+    hsl(253, 80%, 12%) 5%, hsla(0, 0%, 0%, 0) 40%,
     hsla(0, 0%, 0%, 0) 60%,
-    hsl(0, 0%, 0%) 92%);
+    hsl(253, 80%, 12%) 92%);
 }
 
 .explore__content{
