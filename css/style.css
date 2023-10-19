@@ -627,6 +627,11 @@ img{
         text-align: initial;
     }
 
+    .about__img{
+        width: 350px;
+        height: 250px;
+    }
+
     .popular__container{
         grid-template-columns: repeat(2, 240px);
     }
