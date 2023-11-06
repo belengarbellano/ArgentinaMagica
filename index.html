@@ -14,6 +14,7 @@
 
 
 </head>
+
 <body>
 
     <!--Header-->
@@ -21,7 +22,7 @@
         <nav class="nav container">
             <a href="#" class="nav__logo">Good Travel</a>
 
-            <div class="nav__menu" id="nav-menu">
+            <section class="nav__menu show-menu"  id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item">
                         <a href="#home" class="nav__link">HOME</a>
@@ -41,7 +42,7 @@
                 <div class="nav__close" id="nav-close"> <!--Se agrega la funcionalidad con css y js-->
                     <i class="ri-close-line"></i>
                 </div>
-            </div>
+            </section>
 
                 <!--Toggle-->
                 <div class="nav__toggle" id="nav-toggle">
@@ -57,12 +58,12 @@
             <img src="./img/banner-argentina1.JPG" alt="imagen de la Patagonia Argentina, fondo de página" class="home__bg">
             <div class="home__shadow"></div>
 
-            <div class="home__container container grid">
+            <section class="home__container container grid">
                 <div class="home__data">
                     <h3 class="home__subtitle">"Vivir es viajar"</h3>
                     <h1 class="home__title">Argentina Mágica</h1>
                     <p class="home__description">Vive experiencias únicas viajando por Argentina. <br> Descubre paisajes alucinantes, montañas y mucho más. <br>Consigue promociones exclusivas!</p>
-                    <a href="#" class="button">Empezar Recorrido <i class="ri-arrow-right-line"></i></a>
+                    <a href="#about" class="button">Empezar Recorrido <i class="ri-arrow-right-line"></i></a>
                 </div>
 
                 <div class="home__cards grid">
@@ -90,7 +91,7 @@
                         <div class="home__card-shadow"></div>
                     </article>
                 </div>
-            </div>
+            </>
         </section>
 
         <!--About-->
@@ -206,9 +207,10 @@
                     </a>
 
                     <p class="footer__description">Viajá con nosotros y explora <br>la Argentina sin límites.</p>
+                    <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.302998682986!2d-58.37572172445165!3d-34.62178255845211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb2ce80459dd%3A0x473b58723aeda12c!2sAv.%20San%20Juan%20525%2C%20C1147%20San%20Telmo%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1698079494512!5m2!1ses-419!2sar" width="250" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
 
-                <div class="footer__data grid">
+                <section class="footer__data grid">
                     <div>
                         <h3 class="footer__title">NOSOTROS</h3>
 
@@ -272,11 +274,11 @@
                             </li>
                         </ul>
                     </div>
-                </div>
+                </section>
                 
             </div>
 
-            <div class="footer__group">
+            <section class="footer__group">
                 <div class="footer__social">
                     <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
                         <i class="ri-facebook-line"></i>
@@ -298,7 +300,7 @@
                 <span class="footer__copy">
                     &#169; Copyright Good Travel Agency 2023. Todos los derechos reservados | Diseñado con <i class="ri-heart-fill"></i> por Belén Garbellano.
                 </span>
-            </div>
+            </section>
         </div>
     </section>
 

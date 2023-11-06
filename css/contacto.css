@@ -152,6 +152,15 @@ form{
     color: hsl(0,0%,60%);
 }
 
+.terms{
+    color: #fff;
+    text-align: left;
+}
+
+.terms span{
+    padding-left: .8rem;
+}
+
 form > button{
     background: hsl(242, 25%, 20%);
     color: #fff;
@@ -198,6 +207,8 @@ form > button:hover,
         font-size: 1.5rem;
     }
 }
+
+
 
 
 

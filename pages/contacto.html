@@ -16,8 +16,8 @@
 <body>
     <!--Main-->
 
-    <div class="container">
-        <div class="box-info">
+    <main class="container">
+        <section class="box-info">
             <h1>Contáctanos</h1>
             <div class="data">
                 <p><i class="ri-smartphone-line"></i>+54 11 2233 4455</p>
@@ -33,31 +33,32 @@
                 <a href=""><i class="ri-twitter-x-line"></i></a>
                 <a href=""><i class="ri-linkedin-box-fill"></i></a>
             </div>
-        </div>
-        <form action="../index.html">
-            <div class="input-box">
-                <input type="text" required placeholder="Nombre y apellido">
+        </section>
+        <form action="../index.html" method="get" id="formulario" name="miFormulario">
+            <section class="input-box">
+                <input type="text" required placeholder="Nombre y apellido" id="nombre">
                 <i class="ri-user-fill"></i>
-            </div>
-            <div class="input-box">
-                <input type="email" required placeholder="Email">
+            </section>
+            <section class="input-box">
+                <input type="email" required placeholder="Email" id="correo">
                 <i class="ri-mail-line"></i>
-            </div>
-            <div class="input-box">
-                <input type="text" required placeholder="Asunto">
+            </section>
+            <section class="input-box">
+                <input type="text" required placeholder="Asunto" id="asunto">
                 <i class="ri-pencil-line"></i>
-            </div>
-            <div class="input-box">
-                <textarea placeholder="Ingrese su mensaje" id="" cols="30" rows="10"></textarea>
-            </div>
-            <button type="submit">Enviar mensaje</button>
+            </section>
+            <section class="input-box">
+                <textarea placeholder="Ingrese su mensaje" id="comentario" cols="30" rows="10"></textarea>
+            </section>
+            <button type="submit" id="btn">Enviar mensaje</button>
         </form>
-    </div>
+    </main>
 
     
 
+    
    
-    
+    <script src="../js/contacto.js"></script>
 </body>
 
 </html>
